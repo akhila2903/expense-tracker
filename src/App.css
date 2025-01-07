@@ -1,0 +1,51 @@
+.container {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.form,
+.filter {
+  margin-bottom: 20px;
+}
+
+input,
+select,
+button {
+  margin: 5px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.expense-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.expense-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.expense-list li span {
+  margin-right: 10px;
+}
